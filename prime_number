@@ -1,9 +1,12 @@
-var flag="No"
-    var count=0
-    for (let i=0;i<=num;i++){
-     
-    }if (count==2){flag="Yes"}
-    
-    
-    console.log(count)
-    
+//check given number is prime or not?
+
+let num=17;
+let factor=0;
+   for(let i=1;i<=num;i++)
+   {
+       if(num%i==0){
+           factor++;
+       }
+   } 
+   if(factor==2){console.log("Yes");}
+   else{console.log("No");}
